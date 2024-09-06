@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #BC9B59;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFDA95;
+    padding: 10px;
+}
+
+.header img {
+    height: 50px;
+}
+
+/* Define estilos generales para los botones si es necesario */
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Colores específicos para cada botón */
+.btn-honeymoon {
+    background-color: #8A0F0F; /* Tomate */
+    color: white;
+}
+.btn-honeymoon:hover {
+
+    background-color: #cb6d51;
+}
+.btn-lust-for-life {
+    background-color: #015D52; /* Azul acero */
+    color: white;
+}
+.btn-lust-for-life:hover {
+
+    background-color: #82a1b1;
+}
+.btn-nfr {
+    background-color: #B85D14; /* Verde lima */
+    color: white;
+}
+.btn-nfr:hover {
+
+    background-color: #956b69;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.content .text {
+    max-width: 500px;
+}
+
+.content h1 {
+    color: #5a3306;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    
+}
+
+.content .main-image {
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.content .additional-images {
+    display: flex;
+    justify-content: left;
+    gap: 150px;
+    margin-top: 20px;
+}
+
+.content .additional-images img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #FFDA95;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+font-face {
+    font-family: 'PlaywritelTModerna';
+    src: url("C:/Users/Dell/Documents/6 cuatri/fonts letras/PlaywritelTModerna/static/PlaywriteITModerna-Regular.ttf");
+    font-weight:bold;
+    font-style: normal;
+} 
+.footer .fan-text {
+    max-width: 250px;
+    font-family:'PlaywritelTModerna' ;
+    font-weight: bold;
+}
+
+.footer div {
+    width: 300px;
+}
+
+.footer h2 {
+    color: #5a3306;
+}
